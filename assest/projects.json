@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Invoice Tracker",
+    "summary": "Billing dashboard with role-based auth, CSV exports, and status analytics.",
+    "stack": "React, Spring Boot, PostgreSQL, Docker",
+    "github": "https://github.com/MohithKrish",
+    "demo": ""
+  },
+  {
+    "name": "Movie Finder",
+    "summary": "Fast search over a public API with debounced input and client-side caching.",
+    "stack": "React, Node.js",
+    "github": "https://github.com/MohithKrish",
+    "demo": ""
+  }
+]

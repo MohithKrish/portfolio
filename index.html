@@ -9,7 +9,7 @@
 <body>
   <nav>
     <div class="nav-inner">
-      <div class="brand">Mohit</div>
+      <a class="brand" href="index.html">Mohit</a>
       <a data-nav href="index.html">Home</a>
       <a data-nav href="about.html">About</a>
       <a data-nav href="projects.html">Projects</a>
@@ -18,12 +18,16 @@
   </nav>
 
   <main class="container">
-    <header>
+    <header class="reveal hero">
       <h1>Hi, I’m Mohit 👋</h1>
       <p class="lead">Full-stack developer (2 years). I build clean, accessible UIs and scalable APIs.</p>
+      <div class="hero-actions">
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn ghost" href="Mohit_Resume.pdf" download>Download Resume</a>
+      </div>
     </header>
 
-    <section>
+    <section class="reveal">
       <h2>Skills</h2>
       <div class="tags">
         <span class="tag">Java</span><span class="tag">Spring Boot</span>
@@ -32,18 +36,18 @@
       </div>
     </section>
 
-    <section>
+    <section class="reveal">
       <h2>Featured Projects</h2>
       <div class="grid">
         <article class="card">
           <h3>Invoice Tracker</h3>
           <p>React + Spring Boot. Role-based auth, CSV exports.</p>
-          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/MohithKrish" target="_blank" rel="noopener">GitHub</a>
         </article>
         <article class="card">
           <h3>Movie Finder</h3>
           <p>React + Node API wrapper. Debounced search, caching.</p>
-          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/MohithKrish" target="_blank" rel="noopener">GitHub</a>
         </article>
       </div>
     </section>

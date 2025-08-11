@@ -9,7 +9,7 @@
 <body>
   <nav>
     <div class="nav-inner">
-      <div class="brand">Mohit</div>
+      <a class="brand" href="index.html">Mohit</a>
       <a data-nav href="index.html">Home</a>
       <a data-nav href="about.html">About</a>
       <a data-nav href="projects.html">Projects</a>
@@ -18,20 +18,18 @@
   </nav>
 
   <main class="container">
-    <h1>Projects</h1>
-    <div class="grid">
-      <article class="card">
-        <h3>Invoice Tracker</h3>
-        <p>React + Spring Boot. Role-based auth, CSV exports.</p>
-        <a href="#" target="_blank" rel="noopener">GitHub</a>
-      </article>
-      <article class="card">
-        <h3>Movie Finder</h3>
-        <p>React + Node API wrapper. Debounced search, caching.</p>
-        <a href="#" target="_blank" rel="noopener">GitHub</a>
-      </article>
-      <!-- Add more cards here -->
-    </div>
+    <header class="reveal">
+      <h1>Projects</h1>
+    </header>
+
+    <section class="reveal">
+      <div id="projects-grid" class="grid" aria-live="polite">
+        <!-- populated by site.js from assets/projects.json -->
+      </div>
+      <noscript>
+        <p>Please enable JavaScript to load projects.</p>
+      </noscript>
+    </section>
 
     <footer>© <span id="y"></span> Mohit</footer>
   </main>
